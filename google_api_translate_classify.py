@@ -10,8 +10,8 @@ db = client.camara
 sessoesCollection = db['sessoes']
 cursor = sessoesCollection.find({})
 
-for sessao in cursor:
-    print(u'{:<16}: {}'.format(sessao['_id'], sessao['ementa']))
+for i, sessao in enumerate(cursor):
+    print(u'{} - {:<16}: {}'.format(str(i), sessao['_id'], sessao['ementa']))
 
     try:
         translator = Translator()
@@ -23,18 +23,20 @@ for sessao in cursor:
     document = types.Document(content=translated.text.encode('utf-8'), type=enums.Document.Type.PLAIN_TEXT)
 
     try:
-        categories = client.classify_text(document).categories
+        categories = []
+        data = client.classify_text(document).categories
+        for category in data:
+            categories.append({
+                'nome': category.name,
+                'confianca': category.confidence
+            })
 
-        for category in categories:
-            print(u'=' * 40)
-            print(u'{:<16}: {}'.format('name', category.name))
-            print(u'{:<16}: {}'.format('confidence', category.confidence))
-
-            sessoesCollection.find_one_and_update(
-                {'_id': sessao["_id"]},
-                {'$set': {'categoria': {'nome': category.name, 'confianca': category.confidence}}}
-            )
+        sessoesCollection.find_one_and_update(
+            {'_id': sessao["_id"]},
+            {
+                '$set': {'categorias': categories},
+                '$unset': {'categoria': 1}
+            }
+        )
     except:
-        print("Nothing found!")
-
-    print(u'=' * 40)
+        print(u"Nothing found!")

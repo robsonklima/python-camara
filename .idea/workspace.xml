@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd7d996-688d-4893-9722-e297e0c70c06" name="Default" comment="Sites Scraper para Projetos">
-      <change afterPath="$PROJECT_DIR$/google_api_translate_classify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normalize_data.py" afterDir="false" />
+    <list default="true" id="5fd7d996-688d-4893-9722-e297e0c70c06" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/google_api_entities.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/adapters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/adapters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/certs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/certs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/hooks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/sessions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/status_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/status_codes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/structures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google_api_translate_classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/google_api_translate_classify.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,12 +14,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="normalize_data.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/normalize_data.py">
+    <leaf>
+      <file leaf-file-name="google_api_translate_classify.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/google_api_translate_classify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="354">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <folding>
+                <element signature="e#24#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="google_api_entities.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/google_api_entities.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +73,7 @@
     <setting file="file://$PROJECT_DIR$/site_scraper_sessoes.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/site_scraper_projetos.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/google_api_translate_classify.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/google_api_entities.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/csv_import_db.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/site_scraper_assiduidades.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/normalize_data.py" root0="SKIP_INSPECTION" />
@@ -93,8 +95,9 @@
         <option value="$PROJECT_DIR$/pgd.py" />
         <option value="$PROJECT_DIR$/class.py" />
         <option value="$PROJECT_DIR$/site_scraper_projetos.py" />
-        <option value="$PROJECT_DIR$/google_api_translate_classify.py" />
         <option value="$PROJECT_DIR$/normalize_data.py" />
+        <option value="$PROJECT_DIR$/google_api_entities.py" />
+        <option value="$PROJECT_DIR$/google_api_translate_classify.py" />
       </list>
     </option>
   </component>
@@ -146,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.normalize_data">
+  <component name="RunManager" selected="Python.google_api_translate_classify">
     <configuration name="comparecimento_site_scraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="camara" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,6 +163,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/site_scraper_assiduidades.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="google_api_entities" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="camara" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="key/google_key.json" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google_api_entities.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,24 +224,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pgd" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="camara" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pgd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="site_scraper_projetos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="camara" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,18 +244,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.comparecimento_site_scraper" />
-      <item itemvalue="Python.pgd" />
       <item itemvalue="Python.site_scraper_projetos" />
       <item itemvalue="Python.google_api_translate_classify" />
       <item itemvalue="Python.normalize_data" />
+      <item itemvalue="Python.google_api_entities" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.normalize_data" />
         <item itemvalue="Python.google_api_translate_classify" />
+        <item itemvalue="Python.google_api_entities" />
+        <item itemvalue="Python.normalize_data" />
         <item itemvalue="Python.site_scraper_projetos" />
         <item itemvalue="Python.comparecimento_site_scraper" />
-        <item itemvalue="Python.pgd" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533260431419</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Normalize e Cursor em DB Mongo">
+      <created>1533336809394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533336809394</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -347,7 +358,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sites Scraper and DB Import" />
     <MESSAGE value="Sites Scraper para Projetos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sites Scraper para Projetos" />
+    <MESSAGE value="Normalize e Cursor em DB Mongo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Normalize e Cursor em DB Mongo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/google_api_translate_classify.py">
@@ -427,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv_import_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pgd.py" />
     <entry file="file://$PROJECT_DIR$/GoogleKey.json" />
     <entry file="file://$PROJECT_DIR$/class.py" />
@@ -462,26 +467,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_import_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/normalize_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_api_entities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding>
-            <element signature="e#46#73#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/google_api_translate_classify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="354">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="e#24#58#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/normalize_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
