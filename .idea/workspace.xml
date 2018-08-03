@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd7d996-688d-4893-9722-e297e0c70c06" name="Default" comment="">
+    <list default="true" id="5fd7d996-688d-4893-9722-e297e0c70c06" name="Default" comment="Sites Scraper para Projetos">
+      <change afterPath="$PROJECT_DIR$/google_api_translate_classify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalize_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pgd.py" beforeDir="false" afterPath="$PROJECT_DIR$/site_scraper_projetos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests-2.19.1.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests-2.19.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests-2.19.1.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests-2.19.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests-2.19.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests-2.19.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests-2.19.1.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests-2.19.1.dist-info/top_level.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/__version__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/_internal_utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/adapters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/adapters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/auth.py" afterDir="false" />
@@ -22,10 +13,8 @@
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/compat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/cookies.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/help.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/hooks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/packages.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/sessions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/status_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/status_codes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests/structures.py" afterDir="false" />
@@ -39,15 +28,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="site_scraper_projetos.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site_scraper_projetos.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="normalize_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/normalize_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -85,8 +71,10 @@
     <setting file="file://$PROJECT_DIR$/csv_download.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/site_scraper_sessoes.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/site_scraper_projetos.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/google_api_translate_classify.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/csv_import_db.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/site_scraper_assiduidades.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/normalize_data.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -105,6 +93,8 @@
         <option value="$PROJECT_DIR$/pgd.py" />
         <option value="$PROJECT_DIR$/class.py" />
         <option value="$PROJECT_DIR$/site_scraper_projetos.py" />
+        <option value="$PROJECT_DIR$/google_api_translate_classify.py" />
+        <option value="$PROJECT_DIR$/normalize_data.py" />
       </list>
     </option>
   </component>
@@ -121,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,12 +123,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.site_scraper_projetos">
+  <component name="RunManager" selected="Python.normalize_data">
     <configuration name="comparecimento_site_scraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="camara" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,7 +165,26 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="get_page_content" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="google_api_translate_classify" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="camara" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="key/google_key.json" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google_api_translate_classify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="normalize_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="camara" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,7 +196,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/site_scraper_sessoes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/normalize_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,38 +238,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="camara" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv_import_db.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.get_page_content" />
       <item itemvalue="Python.comparecimento_site_scraper" />
       <item itemvalue="Python.pgd" />
       <item itemvalue="Python.site_scraper_projetos" />
+      <item itemvalue="Python.google_api_translate_classify" />
+      <item itemvalue="Python.normalize_data" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.normalize_data" />
+        <item itemvalue="Python.google_api_translate_classify" />
         <item itemvalue="Python.site_scraper_projetos" />
         <item itemvalue="Python.comparecimento_site_scraper" />
         <item itemvalue="Python.pgd" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.get_page_content" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533233669036</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sites Scraper para Projetos">
+      <created>1533260431419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533260431419</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -293,10 +296,10 @@
     <frame x="0" y="23" width="1280" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.223193" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913387" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50119144" side_tool="true" weight="0.32913387" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.39370078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.31653544" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4988086" weight="0.32913387" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -343,9 +346,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sites Scraper and DB Import" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sites Scraper and DB Import" />
+    <MESSAGE value="Sites Scraper para Projetos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sites Scraper para Projetos" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/google_api_translate_classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#24#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_api_translate_classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#24#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_api_translate_classify.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_api_translate_classify.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
     <entry file="file://$PROJECT_DIR$/test2.py" />
     <entry file="file://$PROJECT_DIR$/votacao_6789.csv" />
@@ -412,26 +441,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" lean-forward="true" selection-end-line="34" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site_scraper_assiduidades.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site_scraper_projetos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="1134" lean-forward="true" selection-start-line="1134" selection-end-line="1134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_scraper_assiduidades.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#46#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_api_translate_classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/normalize_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
