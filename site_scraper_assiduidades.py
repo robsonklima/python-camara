@@ -14,7 +14,7 @@ BASE_URI = 'https://votacoes.camarapoa.rs.gov.br/'
 links = []
 sessao = ""
 
-for i in range(6788, 7050):
+for i in range(0, 30000):
     try:
         html = urlopen(BASE_URI + "/votacoes/" + str(i))
     except HTTPError as e:
@@ -31,12 +31,11 @@ for i in range(6788, 7050):
             if 'assiduidades' in link.get('href'):
                 if BASE_URI + link.get('href') not in links:
                     links.append(BASE_URI + link.get('href'))
-                    print(BASE_URI + link.get('href'))
+                    print(u'Obtendo dados {} - {}'.format(str(i), BASE_URI + link.get('href')))
 
 for link in links:
     try:
         html = urlopen(link)
-        print(link)
     except HTTPError as e:
         print(e)
     except URLError:
@@ -55,9 +54,9 @@ for link in links:
                     'presenca': tds[i+2].getText()
                 }
 
-                vereadores.append({ 'vereador': vereador })
+                vereadores.append(vereador)
 
         assiduidade = { 'sessao': sessao, 'vereadores': vereadores }
         id = id = db.assiduidades.insert_one(assiduidade).inserted_id
-        print(id)
+        print(u'Inserindo registro no BD {} - {}'.format(id, link))
 

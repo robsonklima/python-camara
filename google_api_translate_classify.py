@@ -16,13 +16,9 @@ for i, sessao in enumerate(cursor):
     try:
         translator = Translator()
         translated = translator.translate(sessao['ementa'], dest='en')
-    except:
-        print(u"Something failed")
 
-    client = language.LanguageServiceClient()
-    document = types.Document(content=translated.text.encode('utf-8'), type=enums.Document.Type.PLAIN_TEXT)
-
-    try:
+        client = language.LanguageServiceClient()
+        document = types.Document(content=translated.text.encode('utf-8'), type=enums.Document.Type.PLAIN_TEXT)
         categories = []
         data = client.classify_text(document).categories
         for category in data:
@@ -38,5 +34,7 @@ for i, sessao in enumerate(cursor):
                 '$unset': {'categoria': 1}
             }
         )
-    except:
-        print(u"Nothing found!")
+
+
+    except Exception as error:
+        print("Error: %s" % str(error))
