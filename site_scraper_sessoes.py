@@ -14,7 +14,7 @@ client = MongoClient('localhost', 27017)
 db = client.camara
 db.sessoes.delete_many({})
 
-for i in range(6797, 15000):
+for i in range(8619, 15000):
     try:
         html = urlopen(BASE_URI + "/votacoes/" + str(i))
     except HTTPError as e:
